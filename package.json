@@ -1,5 +1,5 @@
 {
-  "name": "tfjs-yolo-tiny-demo",
+  "name": "tfjs",
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "parcel-bundler": "^1.7.0"
   },
   "scripts": {
-    "build": "rm -rf ./dist && parcel build src/index.html --public-url='/tfjs-yolo-tiny-demo/'",
+    "build": "rm -rf ./dist && parcel build src/index.html --public-url='/tfjs/'",
     "serve": "parcel src/index.html"
   }
 }
